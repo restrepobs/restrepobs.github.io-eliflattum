@@ -1,0 +1,159 @@
+body {
+	background-color: #0C0F14;
+	font-family: simsun;
+	box-sizing: border-box;
+	
+}
+.navbar-toggler{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 42 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(151,163,176, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*
+.background {
+	position: relative;
+}
+*/
+.navitem a{
+	color: #97A3B0;
+}
+.jumbotron-fluid {
+	background-color: #0C0F14;
+	width: 100%;
+	color: #97A3B0;
+	height: 80vh;
+	text-align: center;
+	padding-top: 15vh;
+	padding-left: 5vw;
+	padding-right: 3vw;
+}
+.jumbotron-fluid p{
+	font-size: 2vw;
+}
+
+.jumbotron-fluid h1{
+	font-size: 5vw;
+}
+.navbar {
+	background-color: #A0251D;
+	color: #97A3B0;
+/*	width: 100vw;*/
+	height: 14vh;
+	font-size: 4vh;
+}
+
+/*
+.image-container {
+	width: 100%;
+}
+*/
+/*
+
+.container {
+	width: 100%;
+}
+*/
+
+/*
+.card{
+	position: fixed;
+	bottom: 0;
+	top: 58vh;
+	left: 0;
+	background-color: #A0251D; 
+	height: 8vh;
+	width: 40%;
+}
+*/
+/*
+.container{
+	clear:right;
+	position: relative;
+	top: 12vh;;
+	right: 21%;
+	height: 20vh;
+	width: 30%;
+	font-size: 2vw;
+}
+*/
+a {
+	color: #97A3B0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #97A3B0;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	width: 100%;
+}
+
+.column {
+	flex: 50%;
+	max-width: 50%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+a:link {
+    color: #97A3B0;
+}
+
+a:visited {
+    color: #97A3B0;
+}
+
+a:hover {
+    color: #333d46;
+}
+@media only screen and (max-width: 1000px) {
+	.navbar {
+		width: 60%;
+		background-color: transparent;
+	}
+
+	.navbar-toggler {
+		background-color: #A0251D;
+		float: right;
+	}
+
+	.nav-item {
+		background-color: #A0251D;
+		color: grey;
+	}
+
+	.container {
+		height: 40vh;
+		font-size: 2.6vw;
+	}
+
+	.card {
+		font-size: 10px;
+	}
+
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+	.jumbotron-fluid{
+		height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.card {
+		width: 80%;
+	}
+	.jumbotron-fluid{
+		padding-top: 8vh;
+	}
+	
+}

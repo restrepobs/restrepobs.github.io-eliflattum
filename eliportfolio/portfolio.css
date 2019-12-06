@@ -1,0 +1,107 @@
+body {
+	background-color: #0C0F14;
+	font-family: simsun;
+	box-sizing: border-box;
+	
+}
+.navbar-toggler{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 42 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(151,163,176, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron-fluid {
+	background-color: #0C0F14;
+	width: 100%;
+	color: #97A3B0;
+	height: 80vh;
+	text-align: center;
+	padding-top: 30vh;
+}
+.jumbotron-fluid p{
+	font-size: 3vw;
+}
+
+.navbar-expand-lg {
+	background-color: #A0251D;
+	color: #97A3B0;
+	width: 100vw;
+	height: 14vh;
+	font-size: 4vh;
+	
+}
+
+
+a {
+	color: #97A3B0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #97A3B0;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	width: 100%;
+}
+
+.column {
+	flex: 50%;
+	max-width: 50%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navbar {
+		width: 60%;
+		background-color: transparent;
+	}
+
+	.navbar-toggler {
+		background-color: #A0251D;
+		float: right;
+	}
+
+	.nav-item {
+		background-color: #A0251D;
+		color: grey;
+	}
+
+	.container {
+		height: 40vh;
+		font-size: 2.6vw;
+	}
+
+	.card {
+		font-size: 10px;
+	}
+
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+a:link {
+    color: #97A3B0;
+}
+
+a:visited {
+    color: #97A3B0;
+}
+
+a:hover {
+    color: #333d46;
+}
+@media only screen and (max-width: 1000px) {
+	.card {
+		width: 80%;
+	}
+
+}
